@@ -53,16 +53,16 @@
 
 	<build>
 		<plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <excludes>
-                        <exclude>
-                            <groupId>org.projectlombok</groupId>
-                            <artifactId>lombok</artifactId>
-                        </exclude>
-                    </excludes>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<excludes>
+						<exclude>
+							<groupId>org.projectlombok</groupId>
+							<artifactId>lombok</artifactId>
+						</exclude>
+					</excludes>
                     <image>
                         <name>yacine2000-hub/${project.artifactId}:${project.version}</name>
                     </image>
@@ -73,10 +73,9 @@
                             <url>https://index.docker.io/v1</url>
                         </publishRegistry>
                     </docker>
-                </configuration>
-            </plugin>
+				</configuration>
+			</plugin>
 		</plugins>
-
 	</build>
 
 </project>
