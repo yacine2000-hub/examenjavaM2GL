@@ -17,6 +17,8 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>17</java.version>
+        <docker.user/>
+        <docker.token/>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -44,11 +46,6 @@
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
 		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
 	</dependencies>
 
 	<build>
@@ -69,7 +66,7 @@
                         </exclude>
                     </excludes>
                     <image>
-                        <name>yacine2000-hub/${project.artifactId}:${project.version}</name>
+                        <name>yacine09/${project.artifactId}:${project.version}</name>
                     </image>
                     <docker>
                         <publishRegistry>
