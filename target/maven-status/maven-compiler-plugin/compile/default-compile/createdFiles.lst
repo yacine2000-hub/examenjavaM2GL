@@ -1,0 +1,7 @@
+com/groupeisi/etudiantcrud/EtudiantCrudApplication.class
+com/groupeisi/etudiantcrud/controller/EtudiantController.class
+com/groupeisi/etudiantcrud/repository/EtudiantRepository.class
+com/groupeisi/etudiantcrud/exception/GlobalExceptionHandler.class
+com/groupeisi/etudiantcrud/exception/ResourceNotFoundException.class
+com/groupeisi/etudiantcrud/exception/ErrorDetails.class
+com/groupeisi/etudiantcrud/model/Etudiant.class

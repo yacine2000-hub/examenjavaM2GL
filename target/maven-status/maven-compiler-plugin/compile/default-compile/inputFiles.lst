@@ -1,0 +1,7 @@
+/Users/yacine/Desktop/intellij_projects/examenjava_devops/etudiant-crud/src/main/java/com/groupeisi/etudiantcrud/EtudiantCrudApplication.java
+/Users/yacine/Desktop/intellij_projects/examenjava_devops/etudiant-crud/src/main/java/com/groupeisi/etudiantcrud/model/Etudiant.java
+/Users/yacine/Desktop/intellij_projects/examenjava_devops/etudiant-crud/src/main/java/com/groupeisi/etudiantcrud/exception/GlobalExceptionHandler.java
+/Users/yacine/Desktop/intellij_projects/examenjava_devops/etudiant-crud/src/main/java/com/groupeisi/etudiantcrud/repository/EtudiantRepository.java
+/Users/yacine/Desktop/intellij_projects/examenjava_devops/etudiant-crud/src/main/java/com/groupeisi/etudiantcrud/exception/ResourceNotFoundException.java
+/Users/yacine/Desktop/intellij_projects/examenjava_devops/etudiant-crud/src/main/java/com/groupeisi/etudiantcrud/exception/ErrorDetails.java
+/Users/yacine/Desktop/intellij_projects/examenjava_devops/etudiant-crud/src/main/java/com/groupeisi/etudiantcrud/controller/EtudiantController.java
