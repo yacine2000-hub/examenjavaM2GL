@@ -73,7 +73,7 @@
                         </exclude>
                     </excludes>
                     <image>
-                        <name>yacine09/${project.artifactId}:${project.version}</name>
+                        <name>yacine2000-hub/${project.artifactId}:${project.version}</name>
                     </image>
                     <docker>
                         <publishRegistry>
